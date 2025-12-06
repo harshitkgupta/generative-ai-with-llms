@@ -1,0 +1,30 @@
+# Week 1 resources
+
+## Books
+1. (Generative AI on AWS: Building Context-Aware Multimodal Reasoning Applications)[https://www.amazon.com/Generative-AI-AWS-Multimodal-Applications/dp/1098159225/]
+
+
+## Transformer Architecture
+1. (Attention is All You Need)[https://arxiv.org/pdf/1706.03762] - This paper introduced the Transformer architecture, with the core "self-attention" mechanism. This article was the foundation for LLMs.
+
+2. (BLOOM: BigScience 176B Model)[https://arxiv.org/abs/2211.05100] - BLOOM is a open-source LLM with 176B parameters trained in an open and transparent way. In this paper, the authors present a detailed discussion of the dataset and process used to train the model. You can also see a high-level overview of the model here.
+
+3. (Vector Space Models)[https://learn.deeplearning.ai/courses/generative-ai-with-llms/lesson/wtbtl/week-1-resources#] - Series of lessons from DeepLearning.AI's Natural Language Processing specialization discussing the basics of vector space models and their use in language modeling.
+
+## Pre-training and scaling laws
+1. (Scaling Laws for Neural Language Models)[https://arxiv.org/abs/2001.08361] - empirical study by researchers at OpenAI exploring the scaling laws for large language models.
+
+## Model architectures and pre-training objectives
+1. (What Language Model Architecture and Pretraining Objective Work Best for Zero-Shot Generalization?)[https://arxiv.org/pdf/2204.05832.pdf] - The paper examines modeling choices in large pre-trained language models and identifies the optimal approach for zero-shot generalization.
+
+2. (HuggingFace Tasks)[https://huggingface.co/tasks] and (Model Hub)[https://huggingface.co/models] - Collection of resources to tackle varying machine learning tasks using the HuggingFace library.
+
+3. (LLaMA: Open and Efficient Foundation Language Models)[https://arxiv.org/pdf/2302.13971.pdf] - Article from Meta AI proposing Efficient LLMs (their model with 13B parameters outperform GPT3 with 175B parameters on most benchmarks)
+
+## Scaling laws and compute-optimal models
+1. (Language Models are Few-Shot Learners)[https://arxiv.org/pdf/2005.14165.pdf] - This paper investigates the potential of few-shot learning in Large Language Models.
+
+2. (Training Compute-Optimal Large Language Models)[https://arxiv.org/pdf/2203.15556.pdf] - Study from DeepMind to evaluate the optimal model size and number of tokens for training LLMs. Also known as "Chinchilla Paper".
+
+3. (BloombergGPT: A Large Language Model for Finance)[https://arxiv.org/pdf/2303.17564.pdf] - LLM trained specifically for the finance domain, a good example that tried to follow chinchilla laws.
+
